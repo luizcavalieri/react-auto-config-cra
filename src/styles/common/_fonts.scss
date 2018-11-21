@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  src:    local('FontAwesome'),
+          url('../assets/fonts/fontawesome/FontAwesome.otf') format('otf'),
+          url('../assets/fonts/fontawesome/fontawesome-webfont.eot') format('eot'),
+          url('../assets/fonts/fontawesome/fontawesome-webfont.svg') format('svg'),
+          url('../assets/fonts/fontawesome/fontawesome-webfont.ttf') format('ttf'),
+          url('../assets/fonts/fontawesome/fontawesome-webfont.woff') format('woff'),
+          url('../assets/fonts/fontawesome/fontawesome-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  src:    local('Poppins'),
+          url('../assets/fonts/poppins/Poppins-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src:    local('Poppins'),
+          url('../assets/fonts/poppins/Poppins-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src:    local('Poppins'),
+          url('../assets/fonts/poppins/Poppins-Medium.ttf') format('ttf');
+}
+
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src:    local('Poppins'),
+  url('../assets/fonts/poppins/Poppins-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src:    local('Poppins'),
+  url('../assets/fonts/poppins/Poppins-Light.ttf') format('ttf');
+}
+
+
+.fa-apple-share {
+  position: relative;
+}
+.fa-apple-share:before {
+  content: "\f096";
+  color: #000;
+}
+.fa-apple-share:after {
+  left: 20%;
+  top: -40%;
+  position: absolute;
+  content: "\f176";
+}

@@ -1,0 +1,111 @@
+
+/**
+ *  Define scss variables here.
+ *
+ *  Available options for Bootstrap:
+ *  http://getbootstrap.com/customize/
+ *
+ */
+
+
+// Variable settings for grids and what not
+$defaultFontSize:       1.6em;
+$gutter:                20px;
+$gutterTablet:          15px;
+$gutterDesktop:         15px;
+
+// Breakpoints
+$bpMaxMobile:           767px;
+$bpMinTablet:           768px;
+$bpMinDesktop:          980px;
+$bpMaxDesktop:          1200px;
+$bpSmallMobile:         450px;
+
+// M sizes
+$m-size:        1.1rem;
+$title-size:    1.5rem;
+$large-size:    2.6rem;
+$xlarge-size:   4.0rem;
+$s-size:        1rem;
+
+$header-height: 70px;
+
+// Custom Colors
+$cyan: #33e0ff;
+$humility: #777;
+
+$brand-color: #b4975d;
+$navbar-default-background: #1f2532;
+$navbar-height: 60px;
+
+// Bootstrap Variables
+$brand-primary: $brand-color;
+$brand-secondary: #e25139;
+$brand-success: #5cb85c;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+$brand-info: #5bc0de;
+
+$text-color: #333;
+
+$font-size-base: 14px;
+$font-family-sans-serif: Poppins, Helvetica, sans-serif;
+
+$card-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+$notification-banner: rgba(0, 0, 0, 0.12) 0px 7px 9px, rgba(0, 0, 0, 0.12) 0px 8px 24px;
+
+
+//REACT TOASTIFY
+$rt-namespace: 'Toastify';
+$rt-toast-width: 320px !default;
+$rt-toast-background: #ffffff !default;
+$rt-toast-min-height: 64px !default;
+$rt-toast-max-height: 800px !default;
+
+
+$rt-color-default: #fff !default;
+$rt-color-info: #3498db !default;
+$rt-color-success: #07bc0c !default;
+$rt-color-warning: #f1c40f !default;
+$rt-color-error: #e74c3c !default;
+
+$rt-color-progress-default: linear-gradient(to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55) !default;
+
+$rt-mobile: "only screen and (max-width : 480px)" !default;
+$rt-font-family: sans-serif !default;
+$rt-z-index: 9999 !default;
+
+//@font-face  {
+//  font-family: Poppins;
+//  src: url(../../../static/fonts/Poppins-Regular.ttf);
+//}
+
+$gold: rgba(180, 151, 94, 0.91);
+$light-gold: #C5A567;
+
+
+// Common used variables
+$border-gold:        2px solid $gold;
+$max-width-box:             1170px;
+$width-box:                 95%;
+$padding-box:                0 2.5%;
+
+strong {
+  font-weight: 900;
+  color: #000;
+}
+
+body {
+  font-family: $font-family-sans-serif;
+  font-size: 15px;
+  height: 100%;
+}
+
+a {
+  color: #999;
+  font-size: 12px;
+}
+
+a:hover {
+  color: $gold;
+}

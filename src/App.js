@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.scss';
+import './styles/App.scss';
+import Button from './_/atom/Button/Button';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
+          <Button/>
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -18,7 +20,7 @@ class App extends Component {
             rel="noopener noreferrer"
           >
             Learn React
-            <p>{ process.env.REACT_APP_SECRET_CODE } </p>
+            <p>{ process.env.REACT_APP_ENVIRONMENT } </p>
           </a>
         </header>
       </div>
