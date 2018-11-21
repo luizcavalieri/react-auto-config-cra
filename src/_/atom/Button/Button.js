@@ -52,7 +52,7 @@ class Button extends Component {
     });
 
     return (
-      <div
+      <button
         style={{ minWidth: this.props.width ? this.props.width : 0 }}
         className={`button ${buttonClassNames ? 'button--'+buttonClassNames : ''}`}
         onClick={this.props.disabled ? null : this.handleClick}
@@ -63,7 +63,7 @@ class Button extends Component {
           {this.props.icon && <i className={'fa ' + this.props.icon} />}
           {this.props.label ? this.props.label : null}
         </div>
-      </div>
+      </button>
     );
   }
 }

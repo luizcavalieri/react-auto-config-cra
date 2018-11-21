@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './styles/App.scss';
 import Button from './_/atom/Button/Button';
+import './styles/App.scss';
 
 class App extends Component {
   render() {
@@ -9,10 +9,15 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <Button
+            label={'Test'}
+          />
+          <Button
+            label={'Test 2'}
+          />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <Button/>
           <a
             className="App-link"
             href="https://reactjs.org"

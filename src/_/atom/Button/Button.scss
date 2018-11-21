@@ -1,5 +1,4 @@
-@import '../../../styles/common/_helpers.scss';
-@import '../../../styles/common/_variables.scss';
+@import '../../../styles/common/_shared.scss';
 
 .button {
   text-transform: uppercase;
@@ -93,7 +92,7 @@
     cursor: pointer;
     width: auto;
     margin-left: auto;
-    margin-right: 2px;
+    margin-right: auto;
     clear: both;
     display: inline-block;
 

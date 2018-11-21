@@ -1,5 +1,4 @@
-@import 'common/_variables.scss';
-@import 'common/_helpers.scss';
+@import 'common/_shared.scss';
 
 .App {
   text-align: center;
@@ -11,7 +10,7 @@
 }
 
 .App-header {
-  background-color: $gold;
+  background-color: $brand-color;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
